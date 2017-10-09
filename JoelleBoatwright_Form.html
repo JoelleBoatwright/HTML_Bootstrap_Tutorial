@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Form Assignment</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<style>
+    .container {
+        margin-top: 30px;
+    }
+
+</style>
+
+<body>
+    <div class="container">
+
+        <form action="http://www.aptweblab.org/request" method="post">
+
+            <div class="form-group">
+                <label for="usr">Name:</label>
+                <input type="text" class="form-control" id="usr">
+            </div>
+            <div class="form-group">
+                <label for="mail">E-mail:</label>
+                <input type="email" class="form-control" id="eml">
+            </div>
+
+            <label for="radio">Grade Level:</label>
+            <div class="radio">
+                <label><input type="radio" name="radio">Freshman</label>
+            </div>
+            <div class="radio">
+                <label><input type="radio" name="radio">Sophomore</label>
+            </div>
+            <div class="radio">
+                <label><input type="radio" name="radio">Junior</label>
+            </div>
+            <div class="radio">
+                <label><input type="radio" name="radio">Senior</label>
+            </div>
+
+            <div class="form-group">
+                <label for="flavors">Favorite Ice Cream Flavors:</label>
+                <select class="form-control" id="flavors">
+                    <option selected disabled>Please select a flavor</option>
+                    <option>Vanilla</option>
+                    <option>Chocolate</option>
+                    <option>Strawberry</option>
+                    <option>Coffee</option>
+                    <option>Other</option>
+                </select>
+            </div>
+
+        </form>
+    </div>
+</body>
+
+</html>
